@@ -83,34 +83,34 @@ The dataset used for this analysis is sourced from official government records a
 | :--- | :--- | :--- |
 | state_name | Str | Name of the Indian state |
 | district_name | Str | Name of the district within the state |
-| Total No. of JobCards issued | Str | The total number of job cards issued to rural households |
-| Total No. of Workers | Str | The total number of workers registered under NREGA |
-| Total No. of Active Job Cards | Str | The number of active job cards at a given point in time |
-| Total No. of Active Workers | Str | The number of workers currently engaged in NREGA works |
-| SC workers against active workers | Str | The count of Scheduled Caste workers among active workers |
-| ST workers against active workers | Str | The count of Scheduled Tribe workers among active workers |
-| Approved Labour Budget | Str | The budget allocated for labor under NREGA |
-| Persondays of Central Liability so far | Str | The total persondays of employment provided, considering central liability |
-| SC persondays | Str | Persondays of employment provided to Scheduled Caste workers |
-| ST persondays | Str | Persondays of employment provided to Scheduled Tribe workers |
-| Women Persondays | Str | Persondays of employment provided to women |
-| Average days of employment provided per Household | Str | The average number of days of employment provided per rural household |
-| Average Wage rate per day per person(Rs.) | Str | The average daily wage rate per NREGA worker in Indian Rupees |
-| Total No of HHs completed 100 Days of Wage Employment | Str | The number of households completing 100 days of wage employment |
-| Total Households Worked | Str | The total number of households involved in NREGA works |
-| Total Individuals Worked | Str | The total number of individuals engaged in NREGA works |
-| Differently abled persons worked | Str | The count of differently abled persons who participated in NREGA works |
-| Number of GPs with NIL exp | Str | The number of Gram Panchayats with zero expenditure |
-| Total No. of Works Takenup (New+Spill Over) | Str | The total number of works initiated, including new projects and spill-over from previous periods |
-| Number of Ongoing Works | Str | The count of works that are currently in progress |
-| Number of Completed Works: | Str | The count of works that have been successfully completed |
-| % of NRM Expenditure(Public + Individual) | Str | The percentage of expenditure on Natural Resource Management (NRM) projects, including both public and individual contributions |
-| % of Category B Works | Str | The percentage of expenditure on Category B works |
-| % of Expenditure on Agriculture & Agriculture Allied Works | Str | The percentage of expenditure on agriculture and allied activities |
-| Total Exp(Rs. in Lakhs.) | Str | Total expenditure in Indian Rupees (in lakhs) |
-| Wages(Rs. In Lakhs) | Str | Expenditure on wages in Indian Rupees (in lakhs) |
-| Material and skilled Wages(Rs. In Lakhs) | Str | Expenditure on materials and skilled wages in Indian Rupees (in lakhs) |
-| Total Adm Expenditure (Rs. in Lakhs) | Str | Total administrative expenditure in Indian Rupees (in lakhs) |
+| Total No. of JobCards issued | Int | The total number of job cards issued to rural households |
+| Total No. of Workers | Int | The total number of workers registered under NREGA |
+| Total No. of Active Job Cards | Int | The number of active job cards at a given point in time |
+| Total No. of Active Workers | Int | The number of workers currently engaged in NREGA works |
+| SC workers against active workers | Int | The count of Scheduled Caste workers among active workers |
+| ST workers against active workers | Int | The count of Scheduled Tribe workers among active workers |
+| Approved Labour Budget | Int | The budget allocated for labor under NREGA |
+| Persondays of Central Liability so far | Int | The total persondays of employment provided, considering central liability |
+| SC persondays | Int | Persondays of employment provided to Scheduled Caste workers |
+| ST persondays | Int | Persondays of employment provided to Scheduled Tribe workers |
+| Women Persondays | Int | Persondays of employment provided to women |
+| Average days of employment provided per Household | Int | The average number of days of employment provided per rural household |
+| Average Wage rate per day per person(Rs.) | Float | The average daily wage rate per NREGA worker in Indian Rupees |
+| Total No of HHs completed 100 Days of Wage Employment | Int | The number of households completing 100 days of wage employment |
+| Total Households Worked | Int | The total number of households involved in NREGA works |
+| Total Individuals Worked | Int | The total number of individuals engaged in NREGA works |
+| Differently abled persons worked | Int | The count of differently abled persons who participated in NREGA works |
+| Number of GPs with NIL exp | Int | The number of Gram Panchayats with zero expenditure |
+| Total No. of Works Takenup (New+Spill Over) | Int | The total number of works initiated, including new projects and spill-over from previous periods |
+| Number of Ongoing Works | Int | The count of works that are currently in progress |
+| Number of Completed Works: | Int | The count of works that have been successfully completed |
+| % of NRM Expenditure(Public + Individual) | Float | The percentage of expenditure on Natural Resource Management (NRM) projects, including both public and individual contributions |
+| % of Category B Works | Int | The percentage of expenditure on Category B works |
+| % of Expenditure on Agriculture & Agriculture Allied Works | Float | The percentage of expenditure on agriculture and allied activities |
+| Total Exp(Rs. in Lakhs.) | Float | Total expenditure in Indian Rupees (in lakhs) |
+| Wages(Rs. In Lakhs) | Float | Expenditure on wages in Indian Rupees (in lakhs) |
+| Material and skilled Wages(Rs. In Lakhs) | Float | Expenditure on materials and skilled wages in Indian Rupees (in lakhs) |
+| Total Adm Expenditure (Rs. in Lakhs) | Float | Total administrative expenditure in Indian Rupees (in lakhs) |
 
 # Data Cleaning:
 # Data Exploration:
@@ -125,6 +125,7 @@ The dataset used for this analysis is sourced from official government records a
 * [MAHATMA GANDHI NATIONAL RURAL EMPLOYMENT GUARANTEE SCHEME](https://nrega.nic.in/MGNREGA_new/home_nrega_new.aspx)
 * [An evaluation of India’s National Rural Employment Guarantee Act](https://www.worldbank.org/en/programs/sief-trust-fund/brief/an-evaluation-of-indias-national-rural-employment-guarantee-act)
 * [Scheme: A Policy Solution to Rural Poverty in India?](https://onlinelibrary.wiley.com/doi/full/10.1111/dpr.12220)
+* [MGNREGA : Bridging Gaps in Rural India Dataset from Kaggle](https://www.kaggle.com/datasets/jayesh134/mgnrega-bridging-gaps-in-rural-india)
 
 # Appendix:
 
