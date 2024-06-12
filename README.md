@@ -114,7 +114,8 @@ The dataset used for this analysis is sourced from official government records a
 2. Renamed a few column header to give more comprehensive column names.
 3. Using Proper() function changed the State Name and District Name rows from Upper case to Proper Case.
 4. Changed the format of numerical columns into Number format.
-5. Loaded the data into Microsoft SQL Server for data analysis.
+5. Changed 'Dn Haveli And Dd' to 'Dadra and Nagar Haveli and Daman and Diu'. 
+6. Loaded the data into Microsoft SQL Server for data analysis.
 
 ## Data Exploration:
 
