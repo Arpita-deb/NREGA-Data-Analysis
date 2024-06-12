@@ -122,6 +122,9 @@ The dataset used for this analysis is sourced from official government records a
 # References:
 
 * [Mahatma Gandhi National Rural Employment Guarantee Act, 2005](https://en.wikipedia.org/wiki/Mahatma_Gandhi_National_Rural_Employment_Guarantee_Act,_2005)
+* [MAHATMA GANDHI NATIONAL RURAL EMPLOYMENT GUARANTEE SCHEME](https://nrega.nic.in/MGNREGA_new/home_nrega_new.aspx)
+* [An evaluation of India’s National Rural Employment Guarantee Act](https://www.worldbank.org/en/programs/sief-trust-fund/brief/an-evaluation-of-indias-national-rural-employment-guarantee-act)
+* [Scheme: A Policy Solution to Rural Poverty in India?](https://onlinelibrary.wiley.com/doi/full/10.1111/dpr.12220)
 
 # Appendix:
 
