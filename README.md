@@ -110,6 +110,11 @@ The dataset used for this analysis is sourced from official government records a
 
 ## Data Cleaning:
 
+1. I created a copy of the original NREGA dataset in Excel and saved it as an Excel File, after changing the data in CSV format to Tabular format using Text-to-Column tool.
+2. Renamed a few column header to give more comprehensive column names.
+3. Using Proper() function changed the State Name and District Name rows from Upper case to Proper Case.
+4. Changed the format of numerical columns into Number format.
+5. Loaded the data into Microsoft SQL Server for data analysis.
 
 ## Data Exploration:
 
