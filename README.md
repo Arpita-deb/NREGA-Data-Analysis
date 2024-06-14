@@ -160,7 +160,7 @@ The minimum wage rate ranges from minimum 0 in Dadra and Nagar Haveli and Daman 
 
 The maximum wage rate ranges from 206.86 in Tripura to 4729.36 in Manipur.
 
-- Which regions or states have the highest and lowest workforce participation, and what factors contribute to these differences?
+- Which regions or states have the highest and lowest workforce participation?
 
 There are total 175,479,159 Active workers in India. A statewise participation reveals that about 10.5% workers are from West Bengal, 10.33% from Rajasthan, 9.48% from Uttar Pradesh, while the lowest number of workers are from Goa (0.01%) and Lakshadweep and Dadra and Nagar Haveli and Daman and Diu (both about 0%).
 
