@@ -1,28 +1,25 @@
 # NREGA-Data-Analysis
 
 ## Introduction:
+### Mahatma Gandhi National Rural Employment Guarantee Act, 2005
 
-This project delves into the analysis of data related to the National Rural Employment Guarantee Act (NREGA), a transformative government scheme aimed at providing rural households with guaranteed wage employment opportunities. 
-
-The dataset used for this analysis encompasses a wide range of parameters, including the number of job cards issued, the workforce engaged, budget allocation, work completion statistics, and much more. Through the application of data analytics techniques, we aim to gain valuable insights into the implementation and impact of NREGA across different states and districts in India.
-
-## Mahatma Gandhi National Rural Employment Guarantee Act, 2005
-
-The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) is a transformative social security scheme aimed at alleviating rural poverty in India. As the world’s largest rural employment program, it guarantees 100 days of wage employment to enhance livelihood security. MGNREGA fosters women’s empowerment and social inclusion by mandating significant participation from women and marginalized communities.
+The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)  or NREGA in short, is a transformative social security scheme aimed at alleviating rural poverty in India. As the world’s largest rural employment program, it guarantees 100 days of wage employment to enhance livelihood security. MGNREGA fosters women’s empowerment and social inclusion by mandating significant participation from women and marginalized communities.
 
 Some key highlights of this act are:
 
-* **Employment Generation**: MGNREGA provides employment opportunities to millions of rural households. It has helped reduce unemployment and underemployment.
+* MGNREGA provides employment opportunities to millions of rural households. It has helped reduce unemployment and underemployment.
 
-* **Income Support**: By guaranteeing 100 days of wage employment, the scheme provides a safety net for vulnerable households. This income support contributes to poverty reduction.
+* By guaranteeing 100 days of wage employment, the scheme provides a safety net for vulnerable households. This income support contributes to poverty reduction.
 
-* **Asset Creation**: MGNREGA focuses on creating durable assets such as water conservation structures, roads, and afforestation.
+* MGNREGA focuses on creating durable assets such as water conservation structures, roads, and afforestation.
 
-* **Women’s Empowerment**: The act emphasizes women’s participation, aiming for at least one-third of the workforce to be women. 
+* The act emphasizes women’s participation, aiming for at least one-third of the workforce to be women. 
 
-* **Social Inclusion**: MGNREGA promotes social equity by ensuring work opportunities for marginalized communities, including Scheduled Castes (SCs) and Scheduled Tribes (STs).
+* It promotes social equity by ensuring work opportunities for marginalized communities, including Scheduled Castes (SCs) and Scheduled Tribes (STs).
 
-* **Environmental Benefits**: The program encourages eco-friendly works like afforestation, soil conservation, and water management, contributing to environmental sustainability.
+* The program also encourages eco-friendly works like afforestation, soil conservation, and water management, contributing to environmental sustainability.
+
+This project delves into the analysis of data related to the National Rural Employment Guarantee Act (NREGA) through the application of data analytics techniques. It aims to gain valuable insights into the implementation and impact of this scheme across different states and districts in India.
 
 ## About the Internship:
 
@@ -93,7 +90,7 @@ These metrics collectively provide a comprehensive view of the scheme's performa
 
 ## Data Decription:
 
-The dataset used for this analysis is sourced from official government records and contains information related to NREGA implementation across various states and districts in India. It comprises 28 columns, encompassing data on job cards, worker details, budget allocation, work completion statistics, expenditure, and more. This dataset offers a comprehensive view of the progress and challenges faced by the NREGA program.
+The dataset used for this analysis is sourced from official government records and contains information related to NREGA implementation across various states and districts in India. It contain 28 columns and 704 rows of data.
 
 | Column Name | Datatype | Description |
 | :--- | :--- | :--- |
@@ -130,12 +127,13 @@ The dataset used for this analysis is sourced from official government records a
 
 ## Data Cleaning:
 
-1. I created a copy of the original NREGA dataset in Excel and saved it as an Excel File, after changing the data in CSV format to Tabular format using Text-to-Column tool.
-2. Renamed a few column header to give more comprehensive column names.
-3. Using Proper() function changed the State Name and District Name rows from Upper case to Proper Case.
+1. I created a copy of the original NREGA CSV file and saved it as an Excel workbook, after changing the data in CSV format to Tabular format using Text-to-Column tool.
+2. Renamed a few column headers to give more comprehensive column names.
+3. Using PROPER() function changed the State Name and District Name rows from Upper case to Proper Case.
 4. Changed the format of numerical columns into Number format.
-5. Changed 'Dn Haveli And Dd' to 'Dadra and Nagar Haveli and Daman and Diu'. 
-6. Loaded the data into Microsoft SQL Server for data analysis.
+5. Changed 'Dn Haveli And Dd' to 'Dadra and Nagar Haveli and Daman and Diu'.
+6. Checked for duplicates entries. There was none. 
+7. Loaded the data into Microsoft SQL Server for data analysis.
 
 ## Data Exploration:
 
@@ -181,8 +179,6 @@ This set of questions aims to provide a holistic view of the NREGA program's per
 ## Summary of the Result:
 
 ### 1. Comprehensive Employment Analysis:
-- **Average Employment Days per Household:**
-  - The average number of employment days provided per household under NREGA is **31 days**. This metric is crucial as it reflects the effectiveness of the program in providing sustained employment to rural households.
 
 - **Distribution of Employment Days:**
   - The distribution of employment days varies significantly across regions. Andhra Pradesh leads with an average of **45 days**, indicative of higher program engagement or need. In contrast, Manipur (**8 days**), West Bengal (**11 days**), and Dadra and Nagar Haveli and Daman and Diu (**13 days**) report the lowest, suggesting potential underutilization or lack of demand.
@@ -191,16 +187,20 @@ This set of questions aims to provide a holistic view of the NREGA program's per
   - The analysis of the top 10 states with the highest and lowest average days of employment per household can highlight regional disparities and inform targeted policy interventions.
 
 - **Average Wage Rate:**
-  - The average wage rate per day per person stands at **₹276.05**. The wage rate is a direct measure of income support provided to the rural poor and varies from **₹0** in some regions to **₹335.52** in Kerala, reflecting the diversity in local wage standards.
+  - The wage rate is a direct measure of income support provided to the rural poor. The average wage rate per day per person stands at **₹276.05**. 
+  - The minimum wage rate ranges from 0 in Dadra and Nagar Haveli and Daman and Diu, Manipur and West Bengal to ₹335.52 in Kerala. The maximum wage rate ranges from ₹206.86 in Tripura to ₹4729.36 in Manipur.
 
 - **Workforce Participation:**
-  - With **175,479,159 active workers** in India, workforce participation rates like West Bengal's **10.5%** and Rajasthan's **10.33%** contrast starkly with Goa's **0.01%**. These figures are indicative of the labor force's reliance on MGNREGA for employment, influenced by factors such as local economic conditions and availability of alternative employment opportunities.
+  - There are total **175,479,159** Active workers in India. A statewise participation reveals that about 10.5% workers are from **West Bengal**, 10.33% from **Rajasthan**, 9.48% from **Uttar Pradesh**, while the lowest number of workers are from **Goa** (0.01%), **Lakshadweep** and **Dadra and Nagar Haveli and Daman and Diu** (both about 0%).
+  - A districtwise breakdown of active workers reveals that the **Dadra and Nagar Haveli** in Dadra and Nagar Haveli and Daman and Diu has the lowest number of active workers (2) while **24 Parganas (South)** in West Bengal has the highest number of active workers (1728854).
+  - In case of Uttar Pradesh, the range of the number of active workers is between 54 (Ghaziabad) (which is disproportionately low compared to other states) to 626217 (Sitapur).
+  - The **Persondays of Central Liability** metric is pivotal as it quantifies the employment provided and the financial commitment by the central government. Tamil Nadu leads with **240 million persondays**, followed by Andhra Pradesh (**198 million**) and Uttar Pradesh (**186 million**), reflecting robust program implementation and high workforce engagement. Conversely, Goa (**27,861**), Lakshadweep (**1,816**), and Dadra and Nagar Haveli and Daman and Diu (**13**) report minimal figures, indicating low engagement or smaller workforce populations.
 
 
 
 ### 2. Household and Individual Participation:
 - **Household Participation Distribution:**
-  - States like Tamil Nadu, Uttar Pradesh, Rajasthan, Andhra Pradesh, and Bihar see the highest household participation, which could be due to higher rural populations or more effective program implementation. Conversely, regions like West Bengal and the Union Territories report the lowest, which may require investigation into program outreach and accessibility.
+  - States like **Tamil Nadu, Uttar Pradesh, Rajasthan, Andhra Pradesh, and Bihar** see the highest household participation, which could be due to higher rural populations or more effective program implementation. Conversely, regions like West Bengal and the Union Territories report the lowest, which may require investigation into program outreach and accessibility.
 
 - **Regional Variation in Individual Participation:**
   - The stark contrast between Tamil Nadu's **7 million individuals** and the mere **2 individuals** in Dadra and Nagar Haveli and Daman and Diu underscores the regional disparities in program uptake, possibly due to differences in population, awareness, and local governance.
@@ -210,44 +210,47 @@ This set of questions aims to provide a holistic view of the NREGA program's per
 
 
 
-### 3. Persondays:
-- **Workforce Participation:**
-  - The **Persondays of Central Liability** metric is pivotal as it quantifies the employment provided and the financial commitment by the central government. Tamil Nadu leads with **240 million persondays**, followed by Andhra Pradesh (**198 million**) and Uttar Pradesh (**186 million**), reflecting robust program implementation and high workforce engagement. Conversely, Goa (**27,861**), Lakshadweep (**1,816**), and Dadra and Nagar Haveli and Daman and Diu (**13**) report minimal figures, indicating low engagement or smaller workforce populations.
+### 3. Social Inclusion and Equity:
+- **Employment Opportunities for Marginalized Communities:**
+  - NREGA's inclusivity is evident with **35 million SC workers** and **28 million ST workers** nationwide. West Bengal (**15.03%** of SC workers) and Madhya Pradesh (**15.37%** of ST workers) lead their respective categories.
+  - The proportion of SC and ST workers to total active workers—**20.02%** and **16.47%**, respectively—highlights the scheme's role in providing employment to historically disadvantaged groups.
+
+- **Statewise Active Worker Representation:**
+  - Punjab's remarkable **71.45%** SC representation among active workers contrasts with regions like Andaman and Nicobar, where there are no SC workers, reflecting the diversity in demographic composition and the scheme's penetration across different states.
+  - In case of ST workers, **Ladakh** has the highest representation of this category among active workers with **100%**, followed by Lakshadweep (99.38%), Mizoram (99.11%), Nagaland (98.54%), Arunachal Pradesh	(93.71%) and Meghalaya(91.65%). Dadra and Nagar Haveli and Daman and Diu and Haryana have no ST workers thus have 0% representation among the active workers.
+
+- **Persondays by Community:**
+  - The average persondays for SC workers is **434,057 days**, with Tamil Nadu contributing the most (**1,814,200 days**). For ST workers, the average is **378,325 days**, with Rajasthan leading (**1,531,360 days**). These figures underscore the scheme's impact on providing employment to SC and ST communities.
 
 - **Contribution by Worker Category:**
   - The total persondays of central liability amount to **1,652,954,474 days**, with significant contributions from SC workers (**19.43%**), ST workers (**16.94%**), and women workers (**59.21%**). These statistics are essential for assessing the scheme's reach among marginalized communities and gender inclusion.
 
 However, the percentages by these categories do not add up to 100. Here's why:
-1. **Overlapping Categories**: SC, ST, and women are not mutually exclusive categories. A person can be both SC/ST and a woman. Therefore, the persondays worked by SC, ST, and women can overlap. For example, a woman could be both SC and ST, contributing persondays to both categories.
+1. SC, ST, and women are not mutually exclusive categories. A person can be both SC/ST and a woman. Therefore, the persondays worked by SC, ST, and women can overlap.
 
-2. **Contribution of Other Categories**: The total percentage will also not add up to 100% because these categories (SC, ST, women) do not represent all possible demographics. There could be other groups not specifically categorized as SC, ST, or women (such as general category males) who also contribute persondays of work.
+2. The total percentage will also not add up to 100% because these categories (SC, ST, women) do not represent all possible demographics. There could be other groups not specifically categorized as SC, ST, or women (such as general category males) who also contribute persondays of work.
 
-3. **Participation Rates**: The percentages reflect the proportion of persondays contributed by each group relative to the total persondays for which the central government is liable. They do not indicate the proportion of the total population or workforce that each group represents.
-
-
-### 4. Social Inclusion and Equity:
-- **Employment Opportunities for Marginalized Communities:**
-  - NREGA's inclusivity is evident with **35 million SC workers** and **28 million ST workers** nationwide. West Bengal (**15.03%** of SC workers) and Madhya Pradesh (**15.37%** of ST workers) lead their respective categories. The proportion of SC and ST workers to total active workers—**20.02%** and **16.47%**, respectively—highlights the scheme's role in providing employment to historically disadvantaged groups.
-
-- **Statewise Active Worker Representation:**
-  - Punjab's remarkable **71.45%** SC representation among active workers contrasts with regions like Andaman and Nicobar, where there are no SC workers, reflecting the diversity in demographic composition and the scheme's penetration across different states.
-
-- **Persondays by Community:**
-  - The average persondays for SC workers is **434,057 days**, with Tamil Nadu contributing the most (**1,814,200 days**). For ST workers, the average is **378,325 days**, with Rajasthan leading (**1,531,360 days**). These figures underscore the scheme's impact on providing employment to SC and ST communities.
+3. The percentages reflect the proportion of persondays contributed by each group relative to the total persondays for which the central government is liable. They do not indicate the proportion of the total population or workforce that each group represents.
 
 
 
-### 5. Budget and Resource Allocation:
+### 4. Budget and Resource Allocation:
 - **Correlation with Employment Generation:**
-  - The **total expenditure** is positively correlated with employment generation, indicating that higher spending is associated with increased labor budget, persondays, and participation of SC, women, and differently-abled persons. This correlation underscores the importance of adequate funding in achieving the program's objectives.
+  - The **total expenditure** is positively correlated with employment generation, indicating that higher spending is associated with increased labor budget, persondays, household and individual participation as well as participation of SC, women, and differently-abled persons. This correlation underscores the importance of adequate funding in achieving the program's objectives.
 
 - **Expenditure Breakdown:**
-  - The **total expenditure** is allocated as follows: **73.44%** for wages, **24.49%** for materials and skilled wages, and **2.07%** for administrative costs. This breakdown highlights the scheme's focus on wage provision to support rural livelihoods.
+  - The **total expenditure** is allocated as follows: **73.44%** for wages, **24.49%** for materials and skilled wages, and **2.07%** for administrative costs.
 
 - **Statewise Expenditure:**
-  - Tamil Nadu has the highest expenditure (**727,295 Lakhs**), while Lakshadweep has the lowest (**6.25 Lakhs**). The percentage of total expenditure spent on wages is highest in Andaman and Nicobar (**96.32%**) and lowest in West Bengal (**6.27%**), reflecting regional priorities and cost structures.
+  - Tamil Nadu has the highest expenditure (**727,295 Lakhs**), while Lakshadweep has the lowest (**6.25 Lakhs**).
+  - Andaman And Nicobar (96.32%), Puducherry (95.9%), Kerala (93.46%), Rajasthan (92.77) and Assam (91.53%) spent maximum of their total expenditure on wages, while Himachal Pradesh (51.19%), Meghalaya (44.69%) and West Bengal (6.27%) spent least on wages.
+  - Meghalaya, ladakh and Goa were the top 3 states to spend their expenditure into materials and skills wages who spent 52.98%, 44.82% and 44.09% respectively in this category. Conversely, Andaman And Nicobar (2.61%), Puducherry (2.23%) and West Bengal(0%) were the lowest.
+  - West Bengal spent its 93.73% of the total expenditure into administrative expenditure, leaving it to be the only state to spend more than 5% of its total expenditure into this category.
+Conversely Lakshadweep, Assam and Punjab spend none into this category.   
 
-### 6. Completion Rates:
+
+
+### 5. Completion Rates:
 - **Household Completion Percentage:**
   - Only **0.92%** of the total households involved in the scheme completed the mandated **100 days** of employment. This low completion rate suggests the need for policy review to ensure the program's promise of providing 100 days of employment is fulfilled more broadly.
 
@@ -263,6 +266,7 @@ However, the percentages by these categories do not add up to 100. Here's why:
 A dashboard will show state wise distribution of works, categories of workers (pie), avg working days, avg wage, expenditure breakdown (pie), a map of india with states.
 
 ## Recommendations: 
+
 1. **Increase Employment Days**: Aim to increase the average employment days per household closer to the 100-day mandate to ensure sustained income support.
 
 2. **Improve Wage Disbursement**: Streamline the wage payment process to reduce delays and ensure timely payment, which could increase workforce participation and satisfaction.
@@ -275,30 +279,25 @@ A dashboard will show state wise distribution of works, categories of workers (p
 
 6. **Monitor and Evaluate**: Establish robust monitoring and evaluation mechanisms to assess the scheme's performance regularly, identify areas for improvement, and ensure accountability.
 
+7. **Address deeper issues:** One can further address the following issues:
+   - What are the disparities in employment opportunities based on social identity, and how can they be addressed?
+   - Are there significant variations in 100 days employement completion rates between different demographic groups (e.g., SC/ST households versus general category households)?
+   - What are the primary reasons cited by households for not completing the 100 days of employment requirement?
+   - What are the common roadblocks to project completion, and how can they be mitigated?
+
 These recommendations aim to strengthen the MGNREGA scheme's capacity to provide meaningful employment, enhance socio-economic conditions, and ensure inclusive growth for rural communities.
 
 ## Limitations of the Project:
-- **Temporal Dynamics**: The analysis does not account for how metrics have changed over time. Including trends and seasonal variations could provide insights into the scheme's performance across different time periods.
 
-- **Quality of Employment**: While the number of days and persondays are quantified, the quality of employment, including work conditions and satisfaction levels, is not addressed. Future studies could explore these qualitative aspects.
+1. **Temporal Dynamics**: The analysis does not account for how metrics have changed over time. Including trends and seasonal variations could provide insights into the scheme's performance across different time periods. Moreover, there were no data on Women workforce which has a large contribution in these Scheme. 
 
-- **Economic Impact**: The direct economic impact on households, such as changes in household income and expenditure patterns, is not covered. Analyzing this could help understand the scheme's effectiveness in alleviating poverty.
+2. **Quality of Employment**: While the number of days and persondays are quantified, the quality of employment, including work conditions and satisfaction levels, is not addressed. Future studies could explore these qualitative aspects.
 
-- **Post-MGNREGA Employment**: There is no information on the long-term employment status of individuals after their engagement with the scheme. Studies could investigate whether the scheme leads to sustainable employment opportunities.
+3. **Post-MGNREGA Employment**: There is no information on the long-term employment status of individuals after their engagement with the scheme. Studies could investigate whether the scheme leads to sustainable employment opportunities.
 
-- **Comparative Analysis**: The summary lacks a comparative analysis with other employment schemes or states without MGNREGA. Such comparisons could highlight the unique impacts of MGNREGA.
+4. **Comparative Analysis**: The summary lacks a comparative analysis with other employment schemes or states without MGNREGA. Such comparisons could highlight the unique impacts of MGNREGA.
 
-- **Geographical Barriers**: The analysis does not delve into geographical barriers that might affect participation and completion rates, such as accessibility to work sites or migration patterns.
-
-- **Administrative Efficiency**: Metrics related to the administrative efficiency of the scheme, like the time taken to disburse wages or resolve grievances, are not included but could be crucial for policy improvements.
-
-- **Environmental Impact**: The environmental outcomes of the works completed under MGNREGA, such as afforestation or water conservation efforts, are not considered. Future studies could assess the environmental benefits.
-
-- **Social Dynamics**: The analysis does not explore social dynamics, such as community participation, social cohesion, or any potential discrimination within the scheme.
-
-- **Policy and Governance**: An examination of policy implementation and governance structures at the local level could provide insights into the variability in the scheme's success across different regions.
-
-Addressing these limitations in future studies could provide a more holistic understanding of the MGNREGA scheme's impacts and areas for policy refinement.
+5. **Geographical Barriers**: The analysis does not delve into geographical barriers that might affect participation and completion rates, such as accessibility to work sites or migration patterns.
 
 ## Future Ideas:
 
