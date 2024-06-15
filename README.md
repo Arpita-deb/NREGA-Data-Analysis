@@ -139,134 +139,44 @@ The dataset used for this analysis is sourced from official government records a
 
 ## Data Exploration:
 
+Due to the complexity of the data and a large number of columns involved I divided the project into 5 segments focusing on 5 key areas of the MGNREGA Scheme. I used SQL to find quantitative answers to the questions addressing each of these segments. I have described the SQL codes in this [article]() that generate the results of my analysis.
+
+The 5 Sections of the analysis and their corresponding questions are provided below-
+
+1. **Comprehensive Employment Analysis**:
+   - Count the number of states and districts in the dataset.
+   - Determine the total number of job cards issued per state and identify the top 5 states.
+   - Calculate the count of active job cards per state and find the top 5 states.
+   - Compute the average wage rate per day per person.
+   - Identify the state with the highest and lowest average wage rate.
+   - Determine which states have the highest and lowest workforce participation.
+
+2. **Household and Individual Participation**:
+   - Find the total number of households participating in MGNREGA.
+   - Explore the distribution of households across different states.
+   - Calculate the total number of individuals participating in MGNREGA and analyze regional variations.
+   - Compute the average number of days worked per household.
+   - Identify the top 10 states with the highest and lowest average days of employment per household.
+   - Determine the percentage of households completing the mandated 100 days of employment and explore variations across states.
+
+3. **Social Inclusion and Equity**:
+   - Summarize statistics for the top 10 states with the highest number of SC (Scheduled Caste) workers.
+   - Summarize statistics for the top 10 states with the highest number of ST (Scheduled Tribe) workers.
+   - Find the top 5 and bottom 5 states with the highest percentage of SC workers among active workers.
+   - Find the top 5 and bottom 5 states with the highest percentage of ST workers among active workers.
+   - Calculate average person-days for SC, ST, and women workers.
+   - Identify the top 10 states with the highest average person-days for SC, ST, and women workers.
+
+4. **Work Completion Rates**:
+   - Break down the total works into ongoing and completed works, along with their percentage of total works.
+   - Determine the top 5 and bottom 5 states based on completion rates.
+
+5. **Budget and Resource Allocation**:
+   - Calculate the total approved budget for each state.
+   - Determine the overall expenditure across different categories, including wages, materials, and administrative costs.
+   - Provide a breakdown of expenditures (wages, materials, administrative costs) for each state.
+
 This set of questions aims to provide a holistic view of the NREGA program's performance, challenges, and opportunities for improvement. It encompasses various aspects of the program, from employment generation and budget utilization to social inclusion and asset quality. Analyzing the data in response to these questions can help in formulating strategies for enhancing the program's impact.
-
-**1. Comprehensive Employment Analysis:**
-   - What is the **average number of employment days** provided per household under NREGA annually?
-   - How does the **distribution of employment days** vary across households within and between regions?
-   - What are the **trends in workforce engagement** under NREGA over the years, and are there **seasonal patterns** in employment demand?
-
-- What is the average number of employment days provided per household under NREGAA?
-- How does the distribution of employment days vary across households within and between regions?
-
-Andhra Pradesh has the highest average employment days (45), followed by Mizoram (38), Tamil Nadu (38). While Manipur(8), West Bengal (11) and  Dadra and Nagar Haveli and Daman and Diu (13) were the lowest.
-
-- What are the top 10 states with highest and lowest average days of employment per household?
-
-- What is the average wage rate per day per person?
-₹ 276.05. 
-
-The minimum wage rate ranges from minimum 0 in Dadra and Nagar Haveli and Daman and Diu, Manipur,West Bengal to 335.52 in Kerala.
-
-The maximum wage rate ranges from 206.86 in Tripura to 4729.36 in Manipur.
-
-- Which regions or states have the highest and lowest workforce participation?
-
-There are total 175,479,159 Active workers in India. A statewise participation reveals that about 10.5% workers are from West Bengal, 10.33% from Rajasthan, 9.48% from Uttar Pradesh, while the lowest number of workers are from Goa (0.01%) and Lakshadweep and Dadra and Nagar Haveli and Daman and Diu (both about 0%).
-
-The minimum number of active workers reveals that the Dadra and Nagar Haveli in Dadra and Nagar Haveli and Daman and Diu has the lowest number of active workers (2) while 24 Parganas (South) has the highest number of active workers (1728854).
-
-In case of Uttar Pradesh, the range of the number of active workers is between 54 (Ghaziabad) (which is disproportionately low compared to other states) to 626217(Sitapur).
-
-**2. Persondays:**
-   - Which regions or states have the **highest and lowest workforce participation**, and what factors contribute to these differences?
-
-PERSONDAYS OF CENTRAL LIABILITY SO FAR - refers to the cumulative number of persondays of employment generated under the scheme up to a certain point in time.
-
-CENTRAL LIABILITY refers to the total financial commitment or obligation of central government towards funding employment generation under MGNREGA.
-
-Under this scheme the total persondays of central liability has been 1,652,954,474 days. Among them 19.43% contributed SC workers, 16.94% ST and 59.21% women workers.
-
-by states, tamilnadu contributed highest persondays (240 million) , followed by andhraprasesh(198 million) and uttar pradesh(186 million). Goa (27861), Lakshadweep(1816) and Dadra and Nagar Haveli and Daman and Diu	(13) were among the least.
-
-
-**3. Budget and Resource Allocation:**
-   - How does the **total expenditure** correlate with employment generation?
-
-The correlation chart reveals that high expenditure is possitively correlated with high labour budget and persondays, high SC and Women Persondays, high households, and individuals and differently abled persons worked.
-
-   - What is the **total expenditure** across different categories (wages, materials, administrative costs)?
-The total expenditure is spent 73.44% in wages, 24.49% in materials and skilled wages and 2.07% in administrative expenditure.
-
-A statewise break down shows -
-highest expenditure in tamil nadu (727295 Lakhs) and lowest in Lakshadweep (6.25 Laks).
-
-Andaman And Nicobar (96.32%), Puducherry(95.9%), Kerala(93.46%), Rajasthan (92.77) and Assam(91.53%) were the top 5 countries with highest % of total expenditure spent on wages.
-Himachal Pradesh (51.19%), meghalaya (44.69%) and west bengal(6.27%) were the lowest to spend in wages.
-
-Meghalaya, ladakh and goa were the top 3 states to spend their expenditure into materials and skills wages who spent 52.98%, 44.82 and 44.09% respectively.
-Andaman And Nicobar (2.61),Puducherry(2.23) and West Bengal(0) were the lowest to spent in materials and skills wages.
-
-West bengal spent its 93.73% of the total expenditure into administrative expenditure, leaving it to be the only state to spend more than 5% of it expenditure into this category.
-Conversely Lakshadweep,Assam and Punjab spend none into this category.   
-   
-   - Are there discrepancies between **budget allocation and actual work completion**?
-
-
-**5. Social Inclusion and Equity:**
-   - How inclusive is NREGA in providing employment opportunities to **marginalized communities**?
-
-     There are 35 million sc workers, and 28million st workers in overall India.
-
-15.03% of the total SC Workers come from West Bengal, 14.61% from Uttar Pradesh, 10.9% from Rajasthan, 9.4% from tamil nadu and 7.25 from andhra pradesh.
-
-In case of ST Workers, 15.37% comes from Madhya Pradesh, 12.98% from Rajasthan,  8.59% from Odisha, 8.48% from Chattisgarh and 6.32% from maharashtra.
-
-The SC and ST workers comprise 20.02% and 16.47 % of the total active workers respectively.
-
-When compared to the active workers per state, Punjab stands out with 71.45% of the active workers being from SC.
-Next comes Haryana with 48.78%, Uttar Pradesh with 30.85%, Puducherry with 30.05% and Tamil Nadu with 29.99%.
-
-Andaman And Nicobar, Dadra and Nagar Haveli and Daman and Diu, Nagaland, Ladakh, Lakshadweep have no SC workers thus have 0% representation among the active workers as well as 0 SC Person days.
-
-In case of ST workers, Ladakh has the highest representation of ST Workers among active workers with 100%, followed by Lakshadweep(99.38%), Mizoram (99.11%), Nagaland	(98.54%), Arunachal Pradesh	(93.71%) and Meghalaya(91.65%)
-
-Dadra and Nagar Haveli and Daman and Diu and Haryana  have no ST workers thus have 0% representation among the active workers as well as 0 SC Person days.. 
-
-The SCs have an avg persondays of 434057 days, ranging between Tamilnadu (1814200) and Punjab (244).
-
-The STs have an avg persondays of 378325 days, ranging between Rajasthan(1531360) and Goa (38).
-
-   - What are the disparities in employment opportunities based on **social identity**, and how can they be addressed?
-
-### Household and Individual Participation:
-
-1. **What is the distribution of households participating in MGNREGA across different regions/states?
- 
-Tamil Nadu, Uttar pradesh, rajasthan, Andhra pradesh and Bihar are on the top in terms of total households worked under the scheme.
-
-West Bengal, Andaman And Nicobar, Goa, Lakshadweep and Dadra and Nagar Haveli and Daman and Diu are the lowest.
-
-2. **How does the number of individuals participating in MGNREGA vary regionally?
-
-the number of individuals participating in MGNREGA vary between 7 million individuals in Tamil Nadu to 2 individuals in Dadra and Nagar Haveli and Daman and Diu.
-
-Andhra Pradesh, Rajasthan, Uttar Pradesh boasts more than 6 million individuals.
-
-3. **What is the average number of days worked per household under MGNREGA?
-
-the average number of days worked per household is 31 days. with highest avg days in Andhra Pradesh(45), Mizoram (38), Tamil Nadu (38) and lowest being in Manipur(8), West bengal(11) and Dadra and Nagar Haveli (13).
-
-### Completion Rates:
-
-1. **What percentage of households complete the mandated 100 days of employment under MGNREGA?
-out of 46 million households involved in this scheme only 427,534 households completed the 100 days employment which comprises only 0.92% of the total households. 
-
-4. **How do completion rates vary across different geographical regions or administrative units?
-
-by the %of households who completed 100 days of wage employment out of total households Odisha(3.3%), Maharashtra(3.26%), Andhra Pradesh(2.76%), Tripura(1.37%) and Chattisgarh(1.2%) came on top.
-
-Dadra and Nagar Haveli and Daman and Diu,Goa,Lakshadweep,Puducherry, Mizoram, Manipur, West Bengal have no household which completed 100 days of wage employment. They have 1, 2, 1, 16, 11, 2 and 23 districts respectively with 0 households with 100 days of completion.
-
-2. **Are there significant variations in completion rates between different demographic groups (e.g., SC/ST households versus general category households)?
-
-3. **What are the primary reasons cited by households for not completing the 100 days of employment requirement?
-4. What factors (e.g., work type, location, wage rates) are associated with the **successful completion** of NREGA works?
-
-   Some potential factors for NREGA work completion can be number of workers available,budget, household worked, individuals worked, work taken up etc.
-   
-   
-   - What are the common **roadblocks** to project completion, and how can they be mitigated?
 
 ## Summary of the Result:
 
