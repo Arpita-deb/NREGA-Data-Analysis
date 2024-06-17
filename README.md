@@ -180,11 +180,6 @@ This set of questions aims to provide a holistic view of the NREGA program's per
 
 ### 1. Comprehensive Employment Analysis:
 
-- **Distribution of Employment Days:**
-  - The distribution of employment days varies significantly across regions. Andhra Pradesh leads with an average of **45 days**, indicative of higher program engagement or need. In contrast, Manipur (**8 days**), West Bengal (**11 days**), and Dadra and Nagar Haveli and Daman and Diu (**13 days**) report the lowest, suggesting potential underutilization or lack of demand.
-
-- **Top and Bottom States by Employment Days:**
-  - The analysis of the top 10 states with the highest and lowest average days of employment per household can highlight regional disparities and inform targeted policy interventions.
 
 - **Average Wage Rate:**
   - The wage rate is a direct measure of income support provided to the rural poor. The average wage rate per day per person stands at **₹276.05**. 
@@ -208,9 +203,18 @@ This set of questions aims to provide a holistic view of the NREGA program's per
 - **Average Days Worked per Household:**
   - The average of **31 days** worked per household, with Andhra Pradesh (**45 days**), Mizoram (**38 days**), and Tamil Nadu (**38 days**) at the higher end, and Manipur (**8 days**), West Bengal (**11 days**), and Dadra and Nagar Haveli (**13 days**) at the lower end, serves as a barometer for the reach and impact of MGNREGA at the household level.
 
+- **Household Completion Percentage:**
+  - Only **0.92%** of the total households involved in the scheme completed the mandated **100 days** of employment. This low completion rate suggests the need for policy review to ensure the program's promise of providing 100 days of employment is fulfilled more broadly.
+
+- **Geographical Variation in Completion Rates:**
+  - Odisha (**3.3%**), Maharashtra (**3.26%**), and Andhra Pradesh (**2.76%**) lead in the percentage of households completing 100 days of wage employment. In contrast, several regions, including Dadra and Nagar Haveli and Daman and Diu, Goa, and West Bengal, have districts with no households achieving this milestone, indicating significant regional disparities.
+
+- **Factors Influencing Completion:**
+  - Factors such as the type of work, location, wage rates, availability of workers, budget, and the number of individuals worked are associated with the successful completion of NREGA works. Understanding these factors can help improve completion rates and the overall effectiveness of the program.
 
 
 ### 3. Social Inclusion and Equity:
+
 - **Employment Opportunities for Marginalized Communities:**
   - NREGA's inclusivity is evident with **35 million SC workers** and **28 million ST workers** nationwide. West Bengal (**15.03%** of SC workers) and Madhya Pradesh (**15.37%** of ST workers) lead their respective categories.
   - The proportion of SC and ST workers to total active workers—**20.02%** and **16.47%**, respectively—highlights the scheme's role in providing employment to historically disadvantaged groups.
@@ -232,9 +236,12 @@ However, the percentages by these categories do not add up to 100. Here's why:
 
 3. The percentages reflect the proportion of persondays contributed by each group relative to the total persondays for which the central government is liable. They do not indicate the proportion of the total population or workforce that each group represents.
 
+### 4. Work Completion Rates:
 
 
-### 4. Budget and Resource Allocation:
+
+
+### 5. Budget and Resource Allocation:
 - **Correlation with Employment Generation:**
   - The **total expenditure** is positively correlated with employment generation, indicating that higher spending is associated with increased labor budget, persondays, household and individual participation as well as participation of SC, women, and differently-abled persons. This correlation underscores the importance of adequate funding in achieving the program's objectives.
 
@@ -244,22 +251,9 @@ However, the percentages by these categories do not add up to 100. Here's why:
 - **Statewise Expenditure:**
   - Tamil Nadu has the highest expenditure (**727,295 Lakhs**), while Lakshadweep has the lowest (**6.25 Lakhs**).
   - Andaman And Nicobar (96.32%), Puducherry (95.9%), Kerala (93.46%), Rajasthan (92.77) and Assam (91.53%) spent maximum of their total expenditure on wages, while Himachal Pradesh (51.19%), Meghalaya (44.69%) and West Bengal (6.27%) spent least on wages.
-  - Meghalaya, ladakh and Goa were the top 3 states to spend their expenditure into materials and skills wages who spent 52.98%, 44.82% and 44.09% respectively in this category. Conversely, Andaman And Nicobar (2.61%), Puducherry (2.23%) and West Bengal(0%) were the lowest.
+  - Meghalaya, Ladakh and Goa were the top 3 states to spend their expenditure into materials and skills wages who spent 52.98%, 44.82% and 44.09% respectively in this category. Conversely, Andaman And Nicobar (2.61%), Puducherry (2.23%) and West Bengal(0%) were the lowest.
   - West Bengal spent its 93.73% of the total expenditure into administrative expenditure, leaving it to be the only state to spend more than 5% of its total expenditure into this category.
-Conversely Lakshadweep, Assam and Punjab spend none into this category.   
-
-
-
-### 5. Completion Rates:
-- **Household Completion Percentage:**
-  - Only **0.92%** of the total households involved in the scheme completed the mandated **100 days** of employment. This low completion rate suggests the need for policy review to ensure the program's promise of providing 100 days of employment is fulfilled more broadly.
-
-- **Geographical Variation in Completion Rates:**
-  - Odisha (**3.3%**), Maharashtra (**3.26%**), and Andhra Pradesh (**2.76%**) lead in the percentage of households completing 100 days of wage employment. In contrast, several regions, including Dadra and Nagar Haveli and Daman and Diu, Goa, and West Bengal, have districts with no households achieving this milestone, indicating significant regional disparities.
-
-- **Factors Influencing Completion:**
-  - Factors such as the type of work, location, wage rates, availability of workers, budget, and the number of individuals worked are associated with the successful completion of NREGA works. Understanding these factors can help improve completion rates and the overall effectiveness of the program.
-
+Conversely Lakshadweep, Assam and Punjab spend none into this category.
 
 ## Dashboard:
 
