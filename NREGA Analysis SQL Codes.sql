@@ -213,7 +213,7 @@
 
 
 
-   -- 10 states with lowest Active Workers
+  	-- 10 states with lowest Active Workers
 
 	WITH Total_Active_Workers AS (
 	SELECT 
@@ -540,7 +540,7 @@
 			[dbo].[NREGA Dataset];
 
 
-   -- Top 10 States with highest average days of employment provided per household
+   	-- Top 10 States with highest average days of employment provided per household
 	
 	SELECT
 			TOP 10 [State Name], 
@@ -553,7 +553,7 @@
 			ROUND(AVG([Average days of employment provided per Household]),0) DESC;
 
 
-  -- Bottom 10 States with highest average days of employment provided per household
+  	-- Bottom 10 States with highest average days of employment provided per household
 	
 	SELECT
 			TOP 10 [State Name], 
@@ -591,7 +591,7 @@
 	ORDER BY
 			ROUND(AVG([Average Wage rate per day per person]),2) DESC;
 
-   -- LOWEST AVERAGE WAGE RATE PER DAY PER PERSON PER STATE
+   	-- LOWEST AVERAGE WAGE RATE PER DAY PER PERSON PER STATE
 	
 	SELECT
 			TOP 1 [State Name], 
@@ -676,7 +676,7 @@
 		[dbo].[NREGA Dataset];
 
 
-    -- STATE WISE TOTAL NUMBER OF HOUSEHOLDS WORKED
+    	-- STATE WISE TOTAL NUMBER OF HOUSEHOLDS WORKED
 
 	SELECT  TOP 10 [State Name],
 			SUM([Total Households Worked]) AS 'Total Households Worked',
@@ -816,7 +816,7 @@
 
 
 
-  -- Statewise breakdown of total expenditure
+  	-- Statewise breakdown of total expenditure
 
 	SELECT 
 			[State Name], 
