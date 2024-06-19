@@ -1,4 +1,6 @@
-# NREGA-Data-Analysis
+# Mapping Mgnrega 
+## A state-level analysis of one of world’s largest Rural Employment Scheme 
+![Mapping Mgnrega Presentation](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/a436a771-0ed2-4a7c-810b-054972ddd0c9)
 
 ## Introduction:
 ### Mahatma Gandhi National Rural Employment Guarantee Act, 2005
@@ -236,9 +238,14 @@ However, the percentages by these categories do not add up to 100. Here's why:
 
 3. The percentages reflect the proportion of persondays contributed by each group relative to the total persondays for which the central government is liable. They do not indicate the proportion of the total population or workforce that each group represents.
 
+
 ### 4. Work Completion Rates:
 
+- **Total Work taken Breakdown**
+  - The total number of projects undertaken (including both new initiatives and carry-over tasks) was approximately 16.7 million in total. Among these, 13.05 million projects, accounting for 77.87%, were still in progress, while the remaining 22.13% (equivalent to 3.71 million projects) had been completed.
 
+- **State-wise Total Work taken Breakdown**
+  - Ladakh led the completion rate, with 56.3% of its total projects finished. Tamil Nadu followed closely with 54.8% completed works, and Mizoram achieved 51.9%. Naturally, these regions had the fewest ongoing projects. Conversely, Dadra and Nagar Haveli had nearly 0% completed projects, followed by Manipur (0.4%) and West Bengal (1.3%). These areas also had the highest number of ongoing projects.
 
 
 ### 5. Budget and Resource Allocation:
@@ -255,7 +262,8 @@ However, the percentages by these categories do not add up to 100. Here's why:
   - West Bengal spent its 93.73% of the total expenditure into administrative expenditure, leaving it to be the only state to spend more than 5% of its total expenditure into this category.
 Conversely Lakshadweep, Assam and Punjab spend none into this category.
 
-## Dashboard:
+## Data Visualization:
+
 
 A dashboard will show state wise distribution of works, categories of workers (pie), avg working days, avg wage, expenditure breakdown (pie), a map of india with states.
 
@@ -319,10 +327,12 @@ These ideas aim to deepen the understanding of the scheme's effectiveness, provi
 * [An evaluation of India’s National Rural Employment Guarantee Act](https://www.worldbank.org/en/programs/sief-trust-fund/brief/an-evaluation-of-indias-national-rural-employment-guarantee-act)
 * [The Mahatma Gandhi National Rural Employment Guarantee Scheme: A Policy Solution to Rural Poverty in India?](https://onlinelibrary.wiley.com/doi/full/10.1111/dpr.12220)
 * [MGNREGA : Bridging Gaps in Rural India Dataset from Kaggle](https://www.kaggle.com/datasets/jayesh134/mgnrega-bridging-gaps-in-rural-india)
+* [Indian States Shape Map TopoJson File](https://github.com/virengajera/data-covid19india/blob/main/mapdata/india.json)
+* [Power BI Shape Maps - Youtube Tutorial](https://youtu.be/bwtVFfYl4Tc?si=fbSnberfNVGu_Rdt)
 
 ## Appendix:
 
 * [Power BI Dashboard](https://drive.google.com/file/d/1DMGkVY3RVBzQ2uZMKMOgVbWhXrDZrY_k/view?usp=sharing)
-* [Epidemic Analytics Report Presentation](https://drive.google.com/file/d/1dj6pw7DB12NxdxLj5S5rj4aSoidRIbqo/view?usp=sharing)
-* [Epidemic Analytics Video Presentation](https://drive.google.com/file/d/168YmV5N0FQdJ4fFSavlFkxsYX7K1ynMo/view?usp=sharing)
+* [MGNREGA Analysis Report Presentation](https://drive.google.com/file/d/1dj6pw7DB12NxdxLj5S5rj4aSoidRIbqo/view?usp=sharing)
+* [MGNREGA Analysis Video Presentation](https://drive.google.com/file/d/168YmV5N0FQdJ4fFSavlFkxsYX7K1ynMo/view?usp=sharing)
 
