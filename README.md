@@ -58,9 +58,9 @@ This project delves into the analysis of data related to the National Rural Empl
 
 * Microsoft Excel: For Data Cleaning and Transforming
 * Microsoft SQL Server: For Data Analysis
-* Power BI: For Data Visualization and Dashboard
+* Power BI: For Data Visualization
 * Canva: For creating Project Report
-* GitHub: Documenting the result
+* GitHub: For Documentation
 
 ## Methodologies Used:
 
@@ -139,7 +139,7 @@ The dataset used for this analysis is sourced from official government records a
 
 ## Data Exploration:
 
-Due to the complexity of the data and a large number of columns involved I divided the project into 5 segments focusing on 5 key areas of the MGNREGA Scheme. I used SQL to find quantitative answers to the questions addressing each of these segments. I have described the SQL codes in this [article]() that generate the results of my analysis.
+Due to the complexity of the data and a large number of columns involved I divided the project into 5 segments focusing on 5 key areas of the MGNREGA Scheme. I used SQL to find quantitative answers to the questions addressing each of these segments. I have described the SQL codes in this [article](https://medium.com/@arpita_deb/mgnrega-data-analysis-with-sql-1bff77206b83) that generate the results of my analysis.
 
 The 5 Sections of the analysis and their corresponding questions are provided below-
 
@@ -262,10 +262,6 @@ However, the percentages by these categories do not add up to 100. Here's why:
   - West Bengal spent its 93.73% of the total expenditure into administrative expenditure, leaving it to be the only state to spend more than 5% of its total expenditure into this category.
 Conversely Lakshadweep, Assam and Punjab spend none into this category.
 
-## Data Visualization:
-
-
-A dashboard will show state wise distribution of works, categories of workers (pie), avg working days, avg wage, expenditure breakdown (pie), a map of india with states.
 
 ## Recommendations: 
 
@@ -318,8 +314,6 @@ These recommendations aim to strengthen the MGNREGA scheme's capacity to provide
    - **Data Points**: Locations of work sites, distance from villages, transportation availability, and regional topography.
    - **Analysis**: Employ GIS mapping to visualize site distribution, identify areas with low accessibility, and suggest locations for new work sites to optimize reach.
 
-These ideas aim to deepen the understanding of the scheme's effectiveness, provide comparative insights, and enhance the strategic planning for future implementations.
-
 ## References:
 
 * [Mahatma Gandhi National Rural Employment Guarantee Act, 2005](https://en.wikipedia.org/wiki/Mahatma_Gandhi_National_Rural_Employment_Guarantee_Act,_2005)
@@ -333,6 +327,7 @@ These ideas aim to deepen the understanding of the scheme's effectiveness, provi
 ## Appendix:
 
 * [Power BI Dashboard](https://drive.google.com/file/d/1DMGkVY3RVBzQ2uZMKMOgVbWhXrDZrY_k/view?usp=sharing)
+* [MGNREGA Data Analysis with SQL](https://medium.com/@arpita_deb/mgnrega-data-analysis-with-sql-1bff77206b83)
 * [MGNREGA Analysis Report Presentation](https://drive.google.com/file/d/1dj6pw7DB12NxdxLj5S5rj4aSoidRIbqo/view?usp=sharing)
 * [MGNREGA Analysis Video Presentation](https://drive.google.com/file/d/168YmV5N0FQdJ4fFSavlFkxsYX7K1ynMo/view?usp=sharing)
 
