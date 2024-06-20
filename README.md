@@ -1,4 +1,4 @@
-# Mapping Mgnrega 
+# Mapping MGNREGA 
 ## A state-level analysis of one of world’s largest Rural Employment Scheme 
 ![Mapping Mgnrega Presentation](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/a436a771-0ed2-4a7c-810b-054972ddd0c9)
 
@@ -316,18 +316,18 @@ These recommendations aim to strengthen the MGNREGA scheme's capacity to provide
 
 ## References:
 
-* [Mahatma Gandhi National Rural Employment Guarantee Act, 2005](https://en.wikipedia.org/wiki/Mahatma_Gandhi_National_Rural_Employment_Guarantee_Act,_2005)
-* [MAHATMA GANDHI NATIONAL RURAL EMPLOYMENT GUARANTEE SCHEME](https://nrega.nic.in/MGNREGA_new/home_nrega_new.aspx)
-* [An evaluation of India’s National Rural Employment Guarantee Act](https://www.worldbank.org/en/programs/sief-trust-fund/brief/an-evaluation-of-indias-national-rural-employment-guarantee-act)
+* [Mahatma Gandhi National Rural Employment Guarantee Act, 2005 - Wikipedia](https://en.wikipedia.org/wiki/Mahatma_Gandhi_National_Rural_Employment_Guarantee_Act,_2005)
+* [Mahatma Gandhi National Rural Employment Guarantee Scheme - Official Site](https://nrega.nic.in/MGNREGA_new/home_nrega_new.aspx)
+* [An evaluation of India’s National Rural Employment Guarantee Act - World Bank](https://www.worldbank.org/en/programs/sief-trust-fund/brief/an-evaluation-of-indias-national-rural-employment-guarantee-act)
 * [The Mahatma Gandhi National Rural Employment Guarantee Scheme: A Policy Solution to Rural Poverty in India?](https://onlinelibrary.wiley.com/doi/full/10.1111/dpr.12220)
-* [MGNREGA : Bridging Gaps in Rural India Dataset from Kaggle](https://www.kaggle.com/datasets/jayesh134/mgnrega-bridging-gaps-in-rural-india)
+* [MGNREGA : Bridging Gaps in Rural India - Dataset from Kaggle](https://www.kaggle.com/datasets/jayesh134/mgnrega-bridging-gaps-in-rural-india)
 * [Indian States Shape Map TopoJson File](https://github.com/virengajera/data-covid19india/blob/main/mapdata/india.json)
 * [Power BI Shape Maps - Youtube Tutorial](https://youtu.be/bwtVFfYl4Tc?si=fbSnberfNVGu_Rdt)
 
 ## Appendix:
 
 * [Power BI Dashboard](https://drive.google.com/file/d/1DMGkVY3RVBzQ2uZMKMOgVbWhXrDZrY_k/view?usp=sharing)
-* [MGNREGA Data Analysis with SQL](https://medium.com/@arpita_deb/mgnrega-data-analysis-with-sql-1bff77206b83)
-* [MGNREGA Analysis Report Presentation](https://drive.google.com/file/d/1dj6pw7DB12NxdxLj5S5rj4aSoidRIbqo/view?usp=sharing)
-* [MGNREGA Analysis Video Presentation](https://drive.google.com/file/d/168YmV5N0FQdJ4fFSavlFkxsYX7K1ynMo/view?usp=sharing)
+* [MGNREGA Data Analysis with SQL - Medium Article](https://medium.com/@arpita_deb/mgnrega-data-analysis-with-sql-1bff77206b83)
+* [MGNREGA Analysis Report Presentation](https://drive.google.com/file/d/1cFlZ-WgGdo-7SByoHrkqcD8JilsmVUSk/view?usp=sharing)
+* [MGNREGA Analysis Video Presentation](https://drive.google.com/file/d/1MZDiKtzJAkcqnJSkd79_cPWOqGrfUL0T/view?usp=sharing)
 
