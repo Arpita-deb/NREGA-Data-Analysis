@@ -50,9 +50,8 @@ This project delves into the analysis of data related to the National Rural Empl
 ## Deliverables: 
 
 * Project Source Code: SQL file with queries
-* [Dashboard]()
-* [Presentation Report]()
-* [Video Presentation]() explaining the approach towards dataset, problem statement, inferences drawn, final outcome and future scope.
+* [Presentation Report](https://drive.google.com/file/d/1cFlZ-WgGdo-7SByoHrkqcD8JilsmVUSk/view?usp=sharing)
+* [Video Presentation](https://drive.google.com/file/d/1MZDiKtzJAkcqnJSkd79_cPWOqGrfUL0T/view?usp=sharing) explaining the approach towards dataset, problem statement, inferences drawn, final outcome and future scope.
 
 ## Tools Used:
 
