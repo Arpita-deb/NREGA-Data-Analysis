@@ -325,7 +325,6 @@ These recommendations aim to strengthen the MGNREGA scheme's capacity to provide
 
 ## Appendix:
 
-* [Power BI Dashboard](https://drive.google.com/file/d/1DMGkVY3RVBzQ2uZMKMOgVbWhXrDZrY_k/view?usp=sharing)
 * [MGNREGA Data Analysis with SQL - Medium Article](https://medium.com/@arpita_deb/mgnrega-data-analysis-with-sql-1bff77206b83)
 * [MGNREGA Analysis Report Presentation](https://drive.google.com/file/d/1cFlZ-WgGdo-7SByoHrkqcD8JilsmVUSk/view?usp=sharing)
 * [MGNREGA Analysis Video Presentation](https://drive.google.com/file/d/1MZDiKtzJAkcqnJSkd79_cPWOqGrfUL0T/view?usp=sharing)
