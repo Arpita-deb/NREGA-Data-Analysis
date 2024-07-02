@@ -91,7 +91,7 @@ These metrics collectively provide a comprehensive view of the scheme's performa
 
 ## Data Decription:
 
-The dataset used for this analysis is sourced from official government records and contains information related to NREGA implementation across various states and districts in India. It contain 28 columns and 704 rows of data.
+The dataset used for this analysis is sourced from official government records and contains information related to NREGA implementation across various states and districts in India. It contain 28 columns and 740 rows of data.
 
 | Column Name | Datatype | Description |
 | :--- | :--- | :--- |
