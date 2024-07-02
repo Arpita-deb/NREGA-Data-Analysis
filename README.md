@@ -1,6 +1,6 @@
 # Mapping MGNREGA 
 ## A state-level analysis of one of world’s largest Rural Employment Scheme 
-![Mapping Mgnrega Presentation](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/a436a771-0ed2-4a7c-810b-054972ddd0c9)
+![MGNERGA](https://github.com/Arpita-deb/Arpita-deb/assets/139372731/f13d2244-7af9-4730-9be9-75b001f3c9a4)
 
 ## Introduction:
 ### Mahatma Gandhi National Rural Employment Guarantee Act, 2005
@@ -50,6 +50,7 @@ This project delves into the analysis of data related to the National Rural Empl
 ## Deliverables: 
 
 * Project Source Code: SQL file with queries
+* [Power BI Dashboard](https://drive.google.com/file/d/1H7fSkxVA6-AM46j99KaHVra-W9axjtNF/view?usp=sharing)
 * [Presentation Report](https://drive.google.com/file/d/1cFlZ-WgGdo-7SByoHrkqcD8JilsmVUSk/view?usp=sharing)
 * [Video Presentation](https://drive.google.com/file/d/1MZDiKtzJAkcqnJSkd79_cPWOqGrfUL0T/view?usp=sharing) explaining the approach towards dataset, problem statement, inferences drawn, final outcome and future scope.
 
@@ -186,26 +187,37 @@ This set of questions aims to provide a holistic view of the NREGA program's per
   - The wage rate is a direct measure of income support provided to the rural poor. The average wage rate per day per person stands at **₹276.05**. 
   - The minimum wage rate ranges from 0 in Dadra and Nagar Haveli and Daman and Diu, Manipur and West Bengal to ₹335.52 in Kerala. The maximum wage rate ranges from ₹206.86 in Tripura to ₹4729.36 in Manipur.
 
+  - ![avg wage](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/61bb1155-02bc-4aa9-930b-ca084caa43a6)
+
 - **Workforce Participation:**
   - There are total **175,479,159** Active workers in India. A statewise participation reveals that about 10.5% workers are from **West Bengal**, 10.33% from **Rajasthan**, 9.48% from **Uttar Pradesh**, while the lowest number of workers are from **Goa** (0.01%), **Lakshadweep** and **Dadra and Nagar Haveli and Daman and Diu** (both about 0%).
-  - A districtwise breakdown of active workers reveals that the **Dadra and Nagar Haveli** in Dadra and Nagar Haveli and Daman and Diu has the lowest number of active workers (2) while **24 Parganas (South)** in West Bengal has the highest number of active workers (1728854).
+
+  - ![total active workers](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/a3e08132-4500-413b-8317-738634e2bb77)
+
+   - A districtwise breakdown of active workers reveals that the **Dadra and Nagar Haveli** in Dadra and Nagar Haveli and Daman and Diu has the lowest number of active workers (2) while **24 Parganas (South)** in West Bengal has the highest number of active workers (1728854).
   - In case of Uttar Pradesh, the range of the number of active workers is between 54 (Ghaziabad) (which is disproportionately low compared to other states) to 626217 (Sitapur).
   - The **Persondays of Central Liability** metric is pivotal as it quantifies the employment provided and the financial commitment by the central government. Tamil Nadu leads with **240 million persondays**, followed by Andhra Pradesh (**198 million**) and Uttar Pradesh (**186 million**), reflecting robust program implementation and high workforce engagement. Conversely, Goa (**27,861**), Lakshadweep (**1,816**), and Dadra and Nagar Haveli and Daman and Diu (**13**) report minimal figures, indicating low engagement or smaller workforce populations.
-
-
 
 ### 2. Household and Individual Participation:
 - **Household Participation Distribution:**
   - States like **Tamil Nadu, Uttar Pradesh, Rajasthan, Andhra Pradesh, and Bihar** see the highest household participation, which could be due to higher rural populations or more effective program implementation. Conversely, regions like West Bengal and the Union Territories report the lowest, which may require investigation into program outreach and accessibility.
 
+  - ![total hh worked](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/b906caeb-f159-4fb9-8e28-4973d7c67d19)
+
 - **Regional Variation in Individual Participation:**
   - The stark contrast between Tamil Nadu's **7 million individuals** and the mere **2 individuals** in Dadra and Nagar Haveli and Daman and Diu underscores the regional disparities in program uptake, possibly due to differences in population, awareness, and local governance.
+
+  - ![total individual worked](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/df3ca599-708f-428d-96cf-5c789f70912c)
 
 - **Average Days Worked per Household:**
   - The average of **31 days** worked per household, with Andhra Pradesh (**45 days**), Mizoram (**38 days**), and Tamil Nadu (**38 days**) at the higher end, and Manipur (**8 days**), West Bengal (**11 days**), and Dadra and Nagar Haveli (**13 days**) at the lower end, serves as a barometer for the reach and impact of MGNREGA at the household level.
 
+  - ![avg days of employment](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/493d31e0-3f99-41de-abd3-e9a1a30db23f)
+
 - **Household Completion Percentage:**
   - Only **0.92%** of the total households involved in the scheme completed the mandated **100 days** of employment. This low completion rate suggests the need for policy review to ensure the program's promise of providing 100 days of employment is fulfilled more broadly.
+
+  - ![% hh](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/b8b7c6d1-e77b-4bee-a738-02837935fb61)
 
 - **Geographical Variation in Completion Rates:**
   - Odisha (**3.3%**), Maharashtra (**3.26%**), and Andhra Pradesh (**2.76%**) lead in the percentage of households completing 100 days of wage employment. In contrast, several regions, including Dadra and Nagar Haveli and Daman and Diu, Goa, and West Bengal, have districts with no households achieving this milestone, indicating significant regional disparities.
@@ -220,12 +232,17 @@ This set of questions aims to provide a holistic view of the NREGA program's per
   - NREGA's inclusivity is evident with **35 million SC workers** and **28 million ST workers** nationwide. West Bengal (**15.03%** of SC workers) and Madhya Pradesh (**15.37%** of ST workers) lead their respective categories.
   - The proportion of SC and ST workers to total active workers—**20.02%** and **16.47%**, respectively—highlights the scheme's role in providing employment to historically disadvantaged groups.
 
+  - ![10 sc states](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/12208528-4975-4da4-867a-caffaecbad25) ![10 st states](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/fd6f81e6-17c1-433b-9c9c-98b0cef2479c)
+
+
 - **Statewise Active Worker Representation:**
   - Punjab's remarkable **71.45%** SC representation among active workers contrasts with regions like Andaman and Nicobar, where there are no SC workers, reflecting the diversity in demographic composition and the scheme's penetration across different states.
   - In case of ST workers, **Ladakh** has the highest representation of this category among active workers with **100%**, followed by Lakshadweep (99.38%), Mizoram (99.11%), Nagaland (98.54%), Arunachal Pradesh	(93.71%) and Meghalaya(91.65%). Dadra and Nagar Haveli and Daman and Diu and Haryana have no ST workers thus have 0% representation among the active workers.
 
 - **Persondays by Community:**
   - The average persondays for SC workers is **434,057 days**, with Tamil Nadu contributing the most (**1,814,200 days**). For ST workers, the average is **378,325 days**, with Rajasthan leading (**1,531,360 days**). These figures underscore the scheme's impact on providing employment to SC and ST communities.
+
+  - ![persondays](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/1c172513-81b8-4f99-8956-fbc8d7f9c18f)
 
 - **Contribution by Worker Category:**
   - The total persondays of central liability amount to **1,652,954,474 days**, with significant contributions from SC workers (**19.43%**), ST workers (**16.94%**), and women workers (**59.21%**). These statistics are essential for assessing the scheme's reach among marginalized communities and gender inclusion.
@@ -243,6 +260,8 @@ However, the percentages by these categories do not add up to 100. Here's why:
 - **Total Work taken Breakdown**
   - The total number of projects undertaken (including both new initiatives and carry-over tasks) was approximately 16.7 million in total. Among these, 13.05 million projects, accounting for 77.87%, were still in progress, while the remaining 22.13% (equivalent to 3.71 million projects) had been completed.
 
+  - ![work breakdown](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/11d84fdd-9381-4128-8bc7-260d075e0b21)
+
 - **State-wise Total Work taken Breakdown**
   - Ladakh led the completion rate, with 56.3% of its total projects finished. Tamil Nadu followed closely with 54.8% completed works, and Mizoram achieved 51.9%. Naturally, these regions had the fewest ongoing projects. Conversely, Dadra and Nagar Haveli had nearly 0% completed projects, followed by Manipur (0.4%) and West Bengal (1.3%). These areas also had the highest number of ongoing projects.
 
@@ -250,9 +269,12 @@ However, the percentages by these categories do not add up to 100. Here's why:
 ### 5. Budget and Resource Allocation:
 - **Correlation with Employment Generation:**
   - The **total expenditure** is positively correlated with employment generation, indicating that higher spending is associated with increased labor budget, persondays, household and individual participation as well as participation of SC, women, and differently-abled persons. This correlation underscores the importance of adequate funding in achieving the program's objectives.
+  - ![correlation](https://github.com/Arpita-deb/Arpita-deb/assets/139372731/48b90901-88d3-4118-b266-cd43a23aa4a6)
 
-- **Expenditure Breakdown:**
+-  **Expenditure Breakdown:**
   - The **total expenditure** is allocated as follows: **73.44%** for wages, **24.49%** for materials and skilled wages, and **2.07%** for administrative costs.
+
+  - ![expenditure breakdown](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/e0f03242-3020-4392-82bb-6bc5b80a0597)
 
 - **Statewise Expenditure:**
   - Tamil Nadu has the highest expenditure (**727,295 Lakhs**), while Lakshadweep has the lowest (**6.25 Lakhs**).
@@ -261,6 +283,11 @@ However, the percentages by these categories do not add up to 100. Here's why:
   - West Bengal spent its 93.73% of the total expenditure into administrative expenditure, leaving it to be the only state to spend more than 5% of its total expenditure into this category.
 Conversely Lakshadweep, Assam and Punjab spend none into this category.
 
+## Dashboards:
+
+ ![DB 1](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/08d2873d-8336-4e05-a105-0e1c3fc6fb30)
+
+ ![DB 2](https://github.com/Arpita-deb/NREGA-Data-Analysis/assets/139372731/f688303c-9ba5-4777-906b-3049fcd8c723)
 
 ## Recommendations: 
 
@@ -325,6 +352,7 @@ These recommendations aim to strengthen the MGNREGA scheme's capacity to provide
 
 ## Appendix:
 
+* [Power BI Dashboard](https://drive.google.com/file/d/1H7fSkxVA6-AM46j99KaHVra-W9axjtNF/view?usp=sharing)
 * [MGNREGA Data Analysis with SQL - Medium Article](https://medium.com/@arpita_deb/mgnrega-data-analysis-with-sql-1bff77206b83)
 * [MGNREGA Analysis Report Presentation](https://drive.google.com/file/d/1cFlZ-WgGdo-7SByoHrkqcD8JilsmVUSk/view?usp=sharing)
 * [MGNREGA Analysis Video Presentation](https://drive.google.com/file/d/1MZDiKtzJAkcqnJSkd79_cPWOqGrfUL0T/view?usp=sharing)
